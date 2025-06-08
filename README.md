@@ -13,33 +13,33 @@ A sleek and user-friendly React + TypeScript application for selecting skip size
 - **Lazy-loaded Images**: Performance-optimized image loading.
 
 📁 Project Structure
-
+```
 src/
-├── api/                  # API layer for data fetching
-│   ├── axios.ts          # Axios instance with defaults
-│   └── skips.api.ts      # Functions to interact with the skips API
+├── api/                 # API layer for data fetching
+│   ├── axios.ts         # Axios instance with defaults
+│   └── skips.api.ts     # Functions to interact with the skips API
 │
-├── components/           # UI components
-│   └── skips/            # Components specific to skip bin selection
+├── components/          # UI components
+│   └── skips/           # Components specific to skip bin selection
 │       ├── AddToCart.tsx
 │       ├── ErrorAlert.tsx
 │       ├── Loader.tsx
 │       └── SkipCard.tsx
 │
-├── hooks/                # Custom React hooks
-│   └── useSkips.ts       # Fetches skip data with loading and error handling
+├── hooks/               # Custom React hooks
+│   └── useSkips.ts      # Fetches skip data with loading and error handling
 │
-├── pages/                # Pages (routed components)
-│   └── Skip.tsx          # Skip selection page
+├── pages/               # Pages (routed components)
+│   └── Skip.tsx         # Skip selection page
 │
-├── types/                # TypeScript type definitions
+├── types/               # TypeScript type definitions
 │   ├── index.ts
 │   └── skip.types.ts
 │
-├── App.tsx               # App component, entry point for routing
-├── index.css             # Global styles
-└── main.tsx              # Main entry point for the React app
-
+├── App.tsx              # App component, entry point for routing
+├── index.css            # Global styles
+└── main.tsx             # Main entry point for the React app
+```
 
 🛠️ My Approach
 
