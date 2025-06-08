@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <path fill="#f7c827" d="M64 192l32-64h320l32 64-64 160H128L64 192z"/>
+  <text x="50%" y="75%" font-size="60" text-anchor="middle" fill="#000" font-family="Arial, sans-serif">DELIVERED</text>
+</svg>
