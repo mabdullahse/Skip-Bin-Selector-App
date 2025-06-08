@@ -25,7 +25,8 @@ src/
 │       ├── ErrorAlert.tsx
 │       ├── Loader.tsx
 │       └── SkipCard.tsx
-│
+│   └── ErrorBoundary.tsx # Error Boundary component  
+│--
 ├── hooks/               # Custom React hooks
 │   └── useSkips.ts      # Fetches skip data with loading and error handling
 │
