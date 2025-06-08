@@ -15,29 +15,31 @@ A sleek and user-friendly React + TypeScript application for selecting skip size
 📁 Project Structure
 
 src/
-├── api/ # API layer for data fetching
-│ ├── axios.ts # Axios instance with defaults
-│ └── skips.api.ts # Functions to interact with the skips API
+├── api/                  # API layer for data fetching
+│   ├── axios.ts          # Axios instance with defaults
+│   └── skips.api.ts      # Functions to interact with the skips API
 │
-├── components/skips/ # UI components for skip bin selection
-│ ├── AddToCart.tsx
-│ ├── ErrorAlert.tsx
-│ ├── Loader.tsx
-│ ├── SkipCard.tsx
+├── components/           # UI components
+│   └── skips/            # Components specific to skip bin selection
+│       ├── AddToCart.tsx
+│       ├── ErrorAlert.tsx
+│       ├── Loader.tsx
+│       └── SkipCard.tsx
 │
-├── hooks/ # Custom hooks
-│ └── useSkips.ts # Fetches skip data with loading and error handling
+├── hooks/                # Custom React hooks
+│   └── useSkips.ts       # Fetches skip data with loading and error handling
 │
-├── pages/ # Pages
-│ └── Skip.tsx # Skip selection page
+├── pages/                # Pages (routed components)
+│   └── Skip.tsx          # Skip selection page
 │
-├── types/ # TypeScript types
-│ ├── index.ts
-│ └── skip.types.ts
+├── types/                # TypeScript type definitions
+│   ├── index.ts
+│   └── skip.types.ts
 │
-├── App.tsx # Entry point for the app’s routing
-├── index.css # Global styles
-└── main.tsx # Entry file
+├── App.tsx               # App component, entry point for routing
+├── index.css             # Global styles
+└── main.tsx              # Main entry point for the React app
+
 
 🛠️ My Approach
 
